@@ -7,18 +7,18 @@ This is my first ML project and I used a dataset to train a model with the goal 
 
 #### Dataset description: https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset/data
 
-#####Data :
+#### Data :
 You can follow the link<https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset/data> to better understand and download the data.
 I uploaded *dataset.csv* in the project's repository.
 
-#####Notebook :
+#### Notebook :
 In the file *notebook.ipynb* there are is the data preparation and data cleaning process, 
 EDA, feature importance analysis, model selection process and parameter tuning
 
 In this phase we understood that the data we chose were poorly correlated, and that our model wouldn't learn so much from them.
 I decided to keep them and continue the project.
 
-####Final model :
+### Final model :
 the script *train.py* it is been used to train the final model thru *pickle* in *model_xgb.bin*
 
 

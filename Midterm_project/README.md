@@ -17,11 +17,11 @@ I uploaded the entire dataset in the repository. File: *dataset.csv*
 ---
 
 #### Notebook :
-The file *notebook.ipynb* contains all the code that I written in data preparation and data cleaning process, 
+The file *notebook.ipynb* contains all the code that I written during data preparation and data cleaning process and it contains also
 EDA, feature importance analysis, model parameter tuning and model selection process.
 
 Unfortunatly, in this phase I discovered that the data in the choosen dataset were poorly correlated.
-This condition doesn't help our model to reach great performance.
+This condition didn't help our model to reach great performance.
 
 ---
 

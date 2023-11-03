@@ -12,7 +12,7 @@ I find a dataset in kaggle for this purpose :
 
 #### Data :
 You can follow this [link](https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset/data) to better understand the data.
-I uploaded the entire dataset in the repository. File: *dataset.csv*
+I uploaded the entire dataset in the repository. File: *heart_attack_prediction_dataset.csv*
 
 ---
 

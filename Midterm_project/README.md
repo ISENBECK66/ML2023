@@ -17,19 +17,21 @@ I uploaded the entire dataset in the repository, file: *dataset.csv*
 ---
 
 #### Notebook :
-In the file *notebook.ipynb* there are is the data preparation and data cleaning process, 
-EDA, feature importance analysis, model selection process and parameter tuning
+The file *notebook.ipynb* contains the code for data preparation and data cleaning process, 
+EDA, feature importance analysis, model parameter tuning and model selection process.
 
 In this phase we understood that the data we chose were poorly correlated, and that our model wouldn't learn so much from them.
-I decided to keep them and continue the project.
+However I decided to continue the project with the same data.
 
 ---
 
 #### Save final model :
-the script *train.py* it is been used to train the final model, and using *pickle* it has been saved in the file *model_xgb.bin*.
+the script *train.py* it is been used to train the final model that has been saved in the file *model_xgb.bin* using *pickle*.
 
 ---
 
 #### Loading final model in web service:
-Script *heart_attack_verifier.py* load *model_xgb.bin* and have its associated dependencies files *Pipenv* e *Pipenv.lock* to build the environment.
-It is present also *Dockerfile* for running the service.
+The script *heart_attack_verifier.py* load our *model_xgb.bin* and can be used loading its dependencies files *Pipenv* e *Pipenv.lock* to build the environment.
+It is present also the file : *Dockerfile* for running the service.
+
+The script *heart_attack_patient_alpha.py* contains the data of one patient and can be used to test the application.

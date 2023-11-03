@@ -2,22 +2,22 @@
 
 ## GOAL : Predict heart attack 
 
-This is my first ML project and I used a dataset to train a model with the goal of predic the heart attack probability.
+This is my first ML project and I want to train a model to predic the heart attack probability.
 
-I find a dataset in kaggle for this pourpose :
+I find a dataset in kaggle for this purpose :
 
 #### Dataset description: https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset/data
 
 ---
 
 #### Data :
-You can follow this [link](https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset/data) to better understand and download the data.
-I uploaded the entire dataset in the repository, file: *dataset.csv*
+You can follow this [link](https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset/data) to better understand the data.
+I uploaded the entire dataset in the repository. File: *dataset.csv*
 
 ---
 
 #### Notebook :
-The file *notebook.ipynb* contains the code for data preparation and data cleaning process, 
+The file *notebook.ipynb* contains all the code that I written in data preparation and data cleaning process, 
 EDA, feature importance analysis, model parameter tuning and model selection process.
 
 Unfortunatly, in this phase I discovered that the data in the choosen dataset were poorly correlated.
@@ -26,12 +26,13 @@ This condition doesn't help our model to reach great performance.
 ---
 
 #### Save final model :
-the script *train.py* it is been used to train the final model that has been saved in the file *model_xgb.bin* using *pickle*.
+The script *train.py* it is been used to train the final model. It has been saved in the file *model_xgb.bin* using *pickle*.
 
 ---
 
 #### Loading final model in web service:
-The script *heart_attack_verifier.py* load our *model_xgb.bin* and can be used loading its dependencies files *Pipenv* e *Pipenv.lock* to build the environment.
-It is present also the file : *Dockerfile* for running the service.
+The script *heart_attack_verifier.py* load our model : *model_xgb.bin* and it can run in a separate environment thrugh its dependencies files *Pipenv* e *Pipenv.lock*.
+The repository contain also the file : *Dockerfile* , for running it as a service in a separate container.
 
-The script *heart_attack_patient_alpha.py* contains the data of one patient and can be used to test the application.
+#### Test the web service :
+The script *heart_attack_patient_alpha.py* send the data of one patient and can be used to test the service.

@@ -9,7 +9,7 @@ I find a dataset in kaggle for this pourpose :
 #### Dataset description: https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset/data
 
 #### Data :
-You can follow this [link] (https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset/data) to better understand and download the data.
+You can follow this [link](https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset/data) to better understand and download the data.
 I uploaded *dataset.csv* in the project's repository.
 
 #### Notebook :

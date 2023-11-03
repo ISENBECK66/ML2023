@@ -20,8 +20,8 @@ I uploaded the entire dataset in the repository, file: *dataset.csv*
 The file *notebook.ipynb* contains the code for data preparation and data cleaning process, 
 EDA, feature importance analysis, model parameter tuning and model selection process.
 
-In this phase we understood that the data we chose were poorly correlated, and that our model wouldn't learn so much from them.
-However I decided to continue the project with the same data.
+Unfortunatly, in this phase I discovered that the data in the choosen dataset were poorly correlated.
+This condition doesn't help our model to reach great performance.
 
 ---
 

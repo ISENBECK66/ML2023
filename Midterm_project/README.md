@@ -5,17 +5,24 @@
 This is my first ML project and I used a dataset to train a model with the goal of predic the heart attack probability.
 \nI find a dataset in kaggle for this pourpose :
 
-#### Dataset : https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset/data
+#### Dataset description: https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset/data
 
-Data
-You should either commit the dataset you used or have clear instructions how to download the dataset
-Notebook (suggested name - notebook.ipynb) with
-Data preparation and data cleaning
-EDA, feature importance analysis
-Model selection process and parameter tuning
-Script train.py (suggested name)
-Training the final model
-Saving it to a file (e.g. pickle) or saving it with specialized software (BentoML)
+#####Data :
+You can follow the link<https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset/data> to better understand and download the data.
+I uploaded *dataset.csv* in the project's repository.
+
+#####Notebook :
+In the file *notebook.ipynb* there are is the data preparation and data cleaning process, 
+EDA, feature importance analysis, model selection process and parameter tuning
+
+In this phase we understood that the data we chose were poorly correlated, and that our model wouldn't learn so much from them.
+I decided to keep them and continue the project.
+
+####Final model :
+the script *train.py* it is been used to train the final model thru *pickle* in *model_xgb.bin*
+
+
+
 Script predict.py (suggested name)
 Loading the model
 Serving it via a web service (with Flask or specialized software - BentoML, KServe, etc)

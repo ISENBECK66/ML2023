@@ -31,8 +31,10 @@ The script *train.py* it is been used to train the final model. It has been save
 ---
 
 #### Loading final model in web service:
-The script *heart_attack_verifier.py* load our model : *model_xgb.bin* and it can run in a separate environment thrugh its dependencies files *Pipenv* e *Pipenv.lock*.
-The repository contain also the file : *Dockerfile* , for running it as a service in a separate container.
+The script *heart_attack_verifier.py* load our model : *model_xgb.bin* and it can be runned in a separate environment thrugh its dependencies files *Pipenv* e *Pipenv.lock*.
+The repository contain also the file : *Dockerfile* for running it as a service in a completely separate container.
+
+---
 
 #### Test the web service :
 The script *heart_attack_patient_alpha.py* send the data of one patient and can be used to test the service.

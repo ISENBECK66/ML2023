@@ -18,10 +18,10 @@ EDA, feature importance analysis, model selection process and parameter tuning
 In this phase we understood that the data we chose were poorly correlated, and that our model wouldn't learn so much from them.
 I decided to keep them and continue the project.
 
-### Save final model :
+#### Save final model :
 the script *train.py* it is been used to train the final model, and using *pickle* it has been saved in the file *model_xgb.bin*.
 
 
-### Loading final model in web service:
+#### Loading final model in web service:
 Script #heart_attack_verifier.py* load *model_xgb.bin* and have its associated dependencies files *Pipenv* e *Pipenv.lock* to build the environment.
 It is present also *Dockerfile* for running the service.

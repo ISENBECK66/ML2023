@@ -3,7 +3,7 @@
 ## GOAL : Predict heart attack 
 
 This is my first ML project and I used a dataset to train a model with the goal of predic the heart attack probability.
-/nI find a dataset in kaggle for this pourpose :
+\nI find a dataset in kaggle for this pourpose :
 
 #### Dataset : https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset/data
 

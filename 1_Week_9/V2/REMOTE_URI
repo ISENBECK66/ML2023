@@ -1,0 +1,10 @@
+624574636227.dkr.ecr.eu-west-3.amazonaws.com/bees-wasps-images
+
+ACCOUNT=624574636227
+REGION=eu-west-3
+REGISTRY=bees-wasps-images
+
+PREFIX=${ACCOUNT}.dkr.ecr.${REGION}.amazonaws.com/${REGISTRY}
+TAG=bees-wasp_model_v2
+
+REMOTE_URI=${PREFIX}:${TAG}

@@ -8,3 +8,5 @@ You can download the dataset for this homework from [here](https://github.com/SV
 ```bash
 wget https://github.com/SVizor42/ML_Zoomcamp/releases/download/bee-wasp-data/data.zip
 unzip data.zip
+
+
